@@ -1,0 +1,39 @@
+/* Core Styles */
+
+.App {
+  margin: 20px;
+  font-family: sans-serif;
+  color: #444343;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.App_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: px;
+  font-size: 0.6em;
+  color: #444343;
+}
+
+.Chuck_Norris {
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+error {
+  color: red;
+}
+
+/* Media Queries */
+
+@media(min-width: 768px) {
+  .Chuck_Norris {
+    align-items: center;
+    width: 35%;
+    height: 35%;
+    }
+  }
